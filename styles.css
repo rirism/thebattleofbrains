@@ -18,7 +18,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px; /* Padding to ensure content is not touching edges */
 }
 
 /* Main container */
@@ -31,6 +33,7 @@ body {
     width: 90%; /* Adjusted width to accommodate buttons */
     max-width: 600px; /* Maximum width */
     color: #fff; /* White text color */
+    margin: 20px; /* Margin to ensure it doesn't touch the edges */
 }
 
 /* Header styling */
@@ -103,7 +106,8 @@ h1 {
     font-size: 1em;
     cursor: pointer;
     transition: all 0.3s;
-    width: 120px; /* Fixed width for uniformity */
+    width: 100%; /* Full width for uniformity */
+    max-width: 120px; /* Maximum width */
 }
 
 /* Add button */
