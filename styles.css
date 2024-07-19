@@ -94,6 +94,7 @@ h1 {
     display: flex;
     flex-direction: column; /* Change to column layout for mobile */
     align-items: center; /* Center the buttons */
+    justify-content: center; /* Center the buttons horizontally */
     gap: 10px;
     margin-bottom: 20px; /* Space between the first card and buttons */
 }
